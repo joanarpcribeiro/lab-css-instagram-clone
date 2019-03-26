@@ -4,7 +4,154 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+*{
   margin: 0;
 }
+
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+/*Header*/
+
+.header{
+    margin-bottom: 37vh;
+    background-image: url(../images/bgtile.png);
+    background-repeat: repeat;
+    height: 260px;
+    width: 100%;
+    position: relative;
+}
+
+.logo-and-button{
+  width: 99%;
+  height: 56px;
+  margin: 3% 0 6% 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.insta-logo{
+  width: 48%;
+}
+
+.button{
+  background: linear-gradient(to bottom, #3399ff 0%, #1c5380 83%);
+  color: white;
+  border: none;
+  font-size: 12px;
+
+}
+
+.button img{
+  padding: 4px 6px 4px 0;
+  vertical-align: middle;
+}
+
+
+/*Main center images & right container*/
+
+
+.img-phones{
+  margin-left: 10%;
+}
+
+.logo-and-right-container{
+  width: 36%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.main-container{
+  background-color: transparent;
+  position: absolute;
+  top: 10vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.right-container{
+  background-color: white;
+  /*width: 32%;*/
+  margin-top: 5%;
+  margin-left: 5%;
+  padding: 0 2% 0 2%;
+  box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 6px 0 9px -4px rgba(31, 73, 125, 0.8), -6px 0 9px -4px rgba(31, 73, 125, 0.8);
+}
+
+
+
+.center-content{
+  margin: 0 auto;
+}
+
+.clearfix{
+  clear: both;
+}
+
+/*Right container text & images*/
+
+h1{
+  color:#06365f;
+  line-height: 125%;
+}
+
+p {
+  padding-top: 4%;
+}
+
+
+.center-paragraph{
+  margin: 3% 0 3% 0;
+}
+
+
+.images-app-stores{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.badge-android {
+  width: 91%;
+}
+
+.badge-iphone {
+  width: 89%;
+}
+
+.center-links{
+  margin: 5% 2% 5% 0;
+}
+
+
+
+/*Footer*/
+
+footer{
+  width: 100%;
+  padding-top: 5%;
+}
+
+ul {
+  min-width: 658px;
+  list-style-type: none;
+  padding-top: 12%;
+  text-align: center;
+}
+
+  ul li {
+    display: inline;
+    color: #1c5380;
+    margin-left: 2%;
+  }
+
+ li:nth-last-child(1){
+    color: #A9A9A9;
+  }
+
